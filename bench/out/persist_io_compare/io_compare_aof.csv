@@ -1,0 +1,11 @@
+op,method,size_bytes,chunk_bytes,rand_ops,rand_block,sync,iter,seconds,MiB_per_s,checksum,path,bytes,block,MiBps
+read_rand,mmap,81920000,8388608,20000,4096,none,1,0.092814269,841.735,262199157,/home/xiaonie_server_4/tmp/kvstore/bench/out/persist/appendonly.aof,81920000,4096,841.735
+read_rand,pread,81920000,8388608,20000,4096,none,1,0.133731941,584.191,262199157,/home/xiaonie_server_4/tmp/kvstore/bench/out/persist/appendonly.aof,81920000,4096,584.191
+read_rand,mmap,81920000,8388608,20000,4096,none,2,0.094999319,822.374,3777766346,/home/xiaonie_server_4/tmp/kvstore/bench/out/persist/appendonly.aof,81920000,4096,822.374
+read_rand,pread,81920000,8388608,20000,4096,none,2,0.127423939,613.111,3777766346,/home/xiaonie_server_4/tmp/kvstore/bench/out/persist/appendonly.aof,81920000,4096,613.111
+read_rand,mmap,81920000,8388608,20000,4096,none,3,0.093182510,838.408,465553016,/home/xiaonie_server_4/tmp/kvstore/bench/out/persist/appendonly.aof,81920000,4096,838.408
+read_rand,pread,81920000,8388608,20000,4096,none,3,0.132651511,588.949,465553016,/home/xiaonie_server_4/tmp/kvstore/bench/out/persist/appendonly.aof,81920000,4096,588.949
+read_rand,mmap,81920000,8388608,20000,4096,none,4,0.093192307,838.320,569922977,/home/xiaonie_server_4/tmp/kvstore/bench/out/persist/appendonly.aof,81920000,4096,838.320
+read_rand,pread,81920000,8388608,20000,4096,none,4,0.127682356,611.870,569922977,/home/xiaonie_server_4/tmp/kvstore/bench/out/persist/appendonly.aof,81920000,4096,611.870
+read_rand,mmap,81920000,8388608,20000,4096,none,5,0.094060152,830.586,2271365969,/home/xiaonie_server_4/tmp/kvstore/bench/out/persist/appendonly.aof,81920000,4096,830.586
+read_rand,pread,81920000,8388608,20000,4096,none,5,0.130760572,597.466,2271365969,/home/xiaonie_server_4/tmp/kvstore/bench/out/persist/appendonly.aof,81920000,4096,597.466

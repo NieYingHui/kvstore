@@ -1,0 +1,11 @@
+op,method,size_bytes,chunk_bytes,rand_ops,rand_block,sync,iter,seconds,MiB_per_s,checksum,path,bytes,block,MiBps
+read_rand,mmap,81920000,8388608,20000,4096,none,1,0.092256025,846.828,353887878,/home/xiaonie_server_4/tmp/kvstore/bench/out/persist/dump.rdb,81920000,4096,846.828
+read_rand,pread,81920000,8388608,20000,4096,none,1,0.125656962,621.732,353887878,/home/xiaonie_server_4/tmp/kvstore/bench/out/persist/dump.rdb,81920000,4096,621.732
+read_rand,mmap,81920000,8388608,20000,4096,none,2,0.086489670,903.287,2921412012,/home/xiaonie_server_4/tmp/kvstore/bench/out/persist/dump.rdb,81920000,4096,903.287
+read_rand,pread,81920000,8388608,20000,4096,none,2,0.121291993,644.107,2921412012,/home/xiaonie_server_4/tmp/kvstore/bench/out/persist/dump.rdb,81920000,4096,644.107
+read_rand,mmap,81920000,8388608,20000,4096,none,3,0.087346021,894.431,1227900262,/home/xiaonie_server_4/tmp/kvstore/bench/out/persist/dump.rdb,81920000,4096,894.431
+read_rand,pread,81920000,8388608,20000,4096,none,3,0.121041151,645.442,1227900262,/home/xiaonie_server_4/tmp/kvstore/bench/out/persist/dump.rdb,81920000,4096,645.442
+read_rand,mmap,81920000,8388608,20000,4096,none,4,0.090889255,859.563,3276233519,/home/xiaonie_server_4/tmp/kvstore/bench/out/persist/dump.rdb,81920000,4096,859.563
+read_rand,pread,81920000,8388608,20000,4096,none,4,0.131123835,595.811,3276233519,/home/xiaonie_server_4/tmp/kvstore/bench/out/persist/dump.rdb,81920000,4096,595.811
+read_rand,mmap,81920000,8388608,20000,4096,none,5,0.098931517,789.688,4219690423,/home/xiaonie_server_4/tmp/kvstore/bench/out/persist/dump.rdb,81920000,4096,789.688
+read_rand,pread,81920000,8388608,20000,4096,none,5,0.144239961,541.632,4219690423,/home/xiaonie_server_4/tmp/kvstore/bench/out/persist/dump.rdb,81920000,4096,541.632
